@@ -1,0 +1,1637 @@
+2024-03-25 00:08:47,950 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 00:12:41,960 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 20:26:09,212 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-03-25 20:26:09,294 [WARNING] django.request: Bad Request: /execute
+2024-03-25 20:35:28,130 [INFO] django.utils.autoreload: /app/koodiguru_pilot/urls.py changed, reloading.
+2024-03-25 20:35:29,041 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 21:02:11,084 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 21:02:55,813 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 21:03:14,632 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-03-25 21:03:14,675 [WARNING] django.request: Bad Request: /execute
+2024-03-25 21:04:24,268 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-03-25 21:04:25,495 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 21:04:34,188 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-03-25 21:04:34,234 [WARNING] django.request: Bad Request: /execute
+2024-03-25 21:05:13,447 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-03-25 21:05:13,463 [WARNING] django.request: Bad Request: /execute
+2024-03-25 21:06:12,598 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-03-25 21:06:12,613 [WARNING] django.request: Bad Request: /execute
+2024-03-25 21:09:20,481 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-03-25 21:09:21,557 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 21:09:38,292 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-03-25 21:09:38,334 [WARNING] django.request: Bad Request: /execute
+2024-03-25 21:14:29,388 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8001'. You may need to add 'localhost' to ALLOWED_HOSTS.
+2024-03-25 21:14:29,422 [WARNING] django.request: Bad Request: /execute
+2024-03-25 21:31:49,219 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-03-25 21:31:50,170 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 21:42:06,437 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-03-25 21:42:07,560 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 21:44:15,637 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 21:44:54,497 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 21:45:02,968 [WARNING] django.request: Not Found: /execute
+2024-03-25 21:45:24,021 [WARNING] django.request: Not Found: /execute
+2024-03-25 21:54:00,502 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 22:06:57,274 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 22:08:03,040 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 22:09:37,595 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 22:10:01,370 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 22:26:58,564 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 22:27:00,418 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:27:03,964 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 22:27:04,739 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:27:17,182 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 22:27:18,220 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:27:22,733 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 22:27:23,565 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:27:27,050 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 22:27:28,097 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:30:51,964 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:34:51,721 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:34:54,845 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 22:35:47,341 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 22:53:13,085 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 22:53:14,571 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:53:17,940 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 22:53:19,066 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:57:09,763 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 22:57:11,905 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:57:16,410 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 22:57:17,248 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 22:58:22,977 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-25 22:58:23,028 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 23:02:35,360 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:02:36,735 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:02:47,522 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-25 23:02:47,565 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 23:03:19,265 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:03:20,982 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:03:42,121 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:03:43,548 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:03:45,385 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:03:46,550 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:03:54,145 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:03:55,621 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:04:07,395 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-25 23:04:07,441 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 23:07:51,102 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:07:53,095 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:08:21,207 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:08:23,121 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:08:32,545 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:08:33,541 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:08:53,465 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:08:55,065 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:09:00,672 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:09:01,530 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:09:08,129 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:09:09,107 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:09:13,399 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:09:14,423 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:09:20,967 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:09:23,064 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:09:25,592 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:09:27,156 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:09:45,033 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-25 23:09:45,077 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 23:27:57,450 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-25 23:27:58,580 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:28:44,897 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-25 23:28:44,939 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 23:31:10,165 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:31:12,367 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:31:21,047 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:31:22,078 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:31:32,692 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-25 23:31:32,734 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 23:31:53,687 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-25 23:31:53,721 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 23:32:20,425 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-25 23:32:20,459 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 23:35:07,307 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-25 23:35:08,243 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:35:30,598 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-25 23:35:30,650 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-25 23:58:08,210 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:58:09,137 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:58:13,464 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:58:15,473 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:58:26,181 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:58:27,225 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:58:29,820 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:58:30,679 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-25 23:58:47,229 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-25 23:58:48,174 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:50:40,195 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:50:42,439 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:51:28,092 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:51:29,291 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:51:37,830 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:51:39,685 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:51:42,450 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:51:43,893 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:52:03,121 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:52:04,542 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:52:06,502 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:52:08,301 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:53:18,258 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:53:19,410 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:53:27,383 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:53:29,107 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:54:18,509 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:54:19,471 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:54:20,890 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:54:21,771 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:54:27,350 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:54:28,800 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:54:30,700 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:54:31,497 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 16:54:44,189 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 16:54:45,098 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:39:24,661 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:39:26,458 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:39:57,501 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:39:58,768 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:40:01,297 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:40:02,236 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:40:37,512 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 19:40:37,555 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 19:41:17,108 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 19:41:17,154 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 19:47:50,731 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:47:52,152 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:47:53,484 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:47:54,793 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:47:56,633 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:47:58,774 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:48:25,604 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 19:48:25,647 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 19:48:58,538 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:49:00,620 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:49:11,371 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:49:13,522 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:49:23,241 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:49:24,402 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:49:27,940 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:49:29,110 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:49:35,748 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:49:37,511 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:49:44,051 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:49:45,102 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:49:47,479 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:49:48,551 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:49:57,224 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:49:58,328 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:50:04,006 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:50:05,504 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:50:10,988 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:50:12,033 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:50:16,331 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:50:17,395 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 19:50:19,854 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 19:50:20,957 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:16:23,633 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:16:24,731 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:17:20,010 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:17:21,299 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:17:24,647 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:17:25,470 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:17:28,756 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:17:29,721 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:17:35,193 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:17:36,339 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:18:01,454 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:18:02,560 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:18:15,330 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:18:16,456 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:18:28,357 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:18:29,542 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:18:54,526 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:18:56,672 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:21:01,221 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:21:03,345 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:21:07,158 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:21:08,808 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:21:11,400 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:21:13,241 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:21:25,013 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:21:26,087 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:21:29,750 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:21:30,833 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:21:33,164 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:21:34,294 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:21:37,321 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:21:38,312 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:22:56,122 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:22:56,990 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:25:20,151 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:25:21,085 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:25:51,190 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:25:52,092 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:25:59,455 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:26:00,728 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:27:22,951 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:27:23,957 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:28:21,387 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:28:23,312 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:30:36,753 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:30:38,750 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:31:30,509 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:31:30,553 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:41:55,932 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:41:56,996 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:42:00,314 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:42:02,383 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:42:09,969 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:42:11,124 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:42:21,894 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:42:21,938 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:44:14,614 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:44:14,649 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:45:04,506 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:45:04,542 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:46:59,845 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:47:01,917 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:47:03,868 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:47:05,966 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:47:55,014 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:47:55,059 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:47:56,848 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:47:56,882 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:48:04,360 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:48:04,394 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:48:34,361 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:48:36,374 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:48:38,294 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:48:40,445 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:48:44,106 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:48:45,441 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:49:12,914 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:49:12,956 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:49:36,055 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:49:37,161 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:49:46,685 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:49:46,728 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:50:06,330 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:50:07,934 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:50:11,484 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:50:12,757 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:50:29,629 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:50:29,694 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:50:37,631 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:50:37,665 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 20:51:13,885 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:51:14,745 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:53:45,530 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:53:47,631 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:54:03,483 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:54:05,482 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:54:07,470 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:54:09,406 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:54:12,530 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:54:13,941 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:54:17,980 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:54:19,935 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:54:25,047 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:54:26,193 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:54:29,851 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 20:54:31,321 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:56:01,908 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 20:56:37,372 [ERROR] django.security.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'run-code:8000'. You may need to add 'run-code' to ALLOWED_HOSTS.
+2024-03-26 20:56:37,420 [WARNING] django.request: Bad Request: /run_code/execute/
+2024-03-26 21:04:06,047 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 21:08:54,589 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 21:08:56,493 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 21:08:58,869 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 21:08:59,626 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 21:09:02,911 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 21:09:03,911 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 21:09:05,514 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 21:09:06,719 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:39:52,972 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:39:54,075 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:40:10,784 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:40:11,772 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:40:35,643 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:40:36,685 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:40:51,501 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:40:52,517 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:43:10,912 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:43:11,984 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:43:36,638 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:43:37,806 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:43:58,613 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:43:59,427 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:44:49,785 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:44:50,672 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:44:54,233 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:44:55,233 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:45:08,673 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:45:09,480 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:45:16,982 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:45:17,807 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:45:54,762 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:45:55,883 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:46:09,310 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:46:10,509 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:46:12,979 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:46:14,215 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:46:16,644 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:46:17,770 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 22:46:20,209 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 22:46:21,265 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:01:03,065 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:01:04,247 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:01:07,817 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:01:09,010 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:01:17,517 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:01:18,755 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:01:33,603 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:01:34,469 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:02:20,377 [ERROR] django.request: Internal Server Error: /run_code/execute/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/code_runner/views.py", line 24, in post
+    result = execute_python_code(code, inputs, task_id, test_code)
+  File "/app/code_runner/execution_utils.py", line 7, in execute_python_code
+    custom_globals = {'input': input_func, '_source_code': code}
+NameError: name 'input_func' is not defined
+2024-03-26 23:02:45,296 [ERROR] django.request: Internal Server Error: /run_code/execute/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/code_runner/views.py", line 24, in post
+    result = execute_python_code(code, inputs, task_id, test_code)
+  File "/app/code_runner/execution_utils.py", line 7, in execute_python_code
+    custom_globals = {'input': input_func, '_source_code': code}
+NameError: name 'input_func' is not defined
+2024-03-26 23:03:07,921 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:03:09,059 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:03:10,726 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:03:11,862 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:05:09,959 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:05:10,941 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:07:19,027 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:07:20,127 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:14:02,024 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:20:50,076 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:20:51,454 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:20:52,873 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:20:54,107 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:20:57,612 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:20:59,106 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:21:02,554 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:21:03,518 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:21:14,117 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:21:15,045 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:21:22,749 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:21:23,779 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:21:25,205 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:21:26,091 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:22:31,282 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:28:18,197 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:28:19,103 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:41:59,818 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:42:00,750 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:42:22,657 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-26 23:42:23,746 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:56:12,497 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-26 23:56:14,551 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-26 23:59:59,825 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:00:01,732 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:00:19,572 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:00:20,668 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:00:32,160 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:00:33,312 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:04:56,359 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:06:32,825 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:06:34,315 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:06:36,967 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:06:38,266 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:06:43,849 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:06:45,204 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:07:41,504 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:07:42,411 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:07:48,781 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:07:49,692 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:14:52,090 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:16:24,113 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:28:03,667 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:28:05,678 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:28:18,208 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:28:19,124 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:37:40,416 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:37:41,537 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:37:49,119 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:37:50,233 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:39:25,664 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:39:26,846 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:39:29,437 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:39:30,584 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:40:56,900 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:40:58,109 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:41:03,616 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:41:04,396 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:41:11,025 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:41:12,205 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:41:14,648 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:41:15,870 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:42:50,436 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:42:51,725 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:43:55,474 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:43:56,591 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:44:29,523 [ERROR] django.request: Internal Server Error: /run_code/execute/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/code_runner/views.py", line 18, in post
+    language = request.data.get("language").lower()  # Oletusarvo on python
+AttributeError: 'NoneType' object has no attribute 'lower'
+2024-03-27 00:44:56,335 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:44:57,138 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:50:19,506 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:50:21,526 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:52:35,978 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:52:37,207 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:52:43,842 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:52:44,949 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:52:47,359 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:52:48,453 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:52:51,021 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:52:52,363 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:53:06,800 [ERROR] django.request: Internal Server Error: /run_code/execute/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/code_runner/views.py", line 20, in post
+    test_code = request.data.get("test_code",task_id )
+NameError: name 'tas' is not defined
+2024-03-27 00:54:03,517 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:54:04,637 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:54:07,137 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:54:08,055 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:54:10,609 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:54:11,667 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:54:32,534 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-27 00:54:33,619 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:59:50,885 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:59:52,246 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 00:59:54,603 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 00:59:56,285 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:01:44,107 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:01:45,246 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:01:51,878 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:01:53,149 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:03:16,651 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:09:54,776 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:09:56,073 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:09:58,595 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:09:59,533 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:10:04,061 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:10:05,359 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:10:10,854 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:10:11,998 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:10:16,477 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:10:17,704 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:10:18,905 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:10:19,716 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:10:29,391 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:10:30,679 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:10:33,190 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:10:34,061 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:10:37,694 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:10:38,816 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:10:44,394 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:10:46,369 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:10:47,775 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:10:48,589 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:11:44,317 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:11:45,991 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 01:11:47,671 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 01:11:48,786 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:16:10,686 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:16:12,050 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:16:15,616 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:16:16,822 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:16:34,661 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:16:35,863 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:16:38,238 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:16:39,344 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:16:51,895 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:16:53,012 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:01,760 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:03,048 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:05,629 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:06,783 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:09,400 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:10,529 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:25,426 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:26,750 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:30,374 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:31,504 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:34,177 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:35,405 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:45,193 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:46,476 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:50,061 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:51,357 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:53,003 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:54,101 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:17:55,685 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:17:56,809 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:18:02,410 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:18:03,185 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:18:17,642 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:18:18,680 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:18:23,067 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:18:24,096 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:19:30,554 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:19:31,685 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:19:34,091 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:19:35,100 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:19:37,378 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:19:38,396 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:19:39,650 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:19:40,466 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:19:43,710 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:19:44,592 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:19:46,806 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:19:47,660 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:19:58,183 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:19:59,090 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:20:24,036 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 05:20:24,958 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:23:24,071 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:23:25,874 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:23:35,553 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:23:36,785 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:23:39,395 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:23:40,444 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:24:21,892 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:24:23,006 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:24:31,438 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:24:32,502 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:24:38,963 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:24:40,001 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:24:43,317 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:24:44,322 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:24:56,833 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:24:57,826 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:25:17,489 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:25:18,497 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:25:25,925 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:25:27,797 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:25:30,340 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:25:31,387 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:25:34,894 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:25:36,476 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:25:39,035 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:25:40,111 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:26:06,910 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:26:08,200 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:26:13,932 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:26:14,951 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:26:17,317 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:26:18,082 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:26:20,296 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:26:21,513 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:26:23,807 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:26:24,576 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:26:26,822 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:26:27,920 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:26:31,251 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:26:32,498 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:26:35,108 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:26:36,892 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:26:43,490 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:26:44,532 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:27:16,486 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:27:17,325 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:27:53,473 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:27:54,517 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:28:15,389 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:28:16,467 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:30:50,293 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:30:52,276 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:30:55,840 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:30:57,020 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:33:25,811 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:33:26,910 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:33:30,440 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:33:31,559 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 05:33:35,925 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 05:33:36,955 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:07:45,506 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 14:07:47,828 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:09:47,381 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 14:09:48,520 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:09:50,213 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 14:09:52,417 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:10:07,355 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 14:10:08,342 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:10:12,688 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 14:10:14,018 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:10:22,480 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 14:10:23,463 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:28:21,157 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 14:28:22,308 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:28:24,787 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 14:28:25,911 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:28:33,704 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 14:28:34,575 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:30:16,139 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 14:30:17,077 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 14:30:18,473 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-27 14:30:19,644 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:31:58,156 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:32:00,144 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:33:19,262 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:33:20,633 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:33:44,648 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:33:45,719 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:34:14,840 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:34:15,894 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:36:51,716 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:36:52,931 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:37:36,329 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:37:37,932 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:37:43,631 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:37:45,512 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:38:00,468 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:38:02,541 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:38:14,416 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:38:15,603 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:40:25,867 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:40:28,166 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:40:30,943 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:40:33,143 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:40:37,582 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:40:38,704 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:41:13,701 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:41:15,855 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:41:20,479 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:41:21,517 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:41:30,100 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:41:31,172 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:41:33,673 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:41:35,021 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:41:38,005 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:41:39,721 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:41:45,047 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:41:46,900 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:41:49,235 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:41:50,202 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:41:57,848 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:41:59,464 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:47:53,099 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:47:55,171 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:47:58,016 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:47:59,251 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:48:02,733 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:48:04,644 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:48:08,350 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:48:09,556 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:48:11,236 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:48:12,892 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:48:15,326 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:48:16,442 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:48:18,085 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:48:19,175 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:48:40,784 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:48:41,878 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:53:06,348 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:53:07,830 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:53:13,513 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:53:14,449 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:53:17,866 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:53:19,328 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:53:28,079 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:53:29,734 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:53:35,306 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:53:36,436 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:53:59,332 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:54:00,428 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:55:08,380 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:55:10,165 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 18:55:13,621 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-27 18:55:14,883 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 22:32:17,467 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-03-27 23:45:41,296 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-27 23:46:31,148 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:08:34,690 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:08:36,907 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:08:41,549 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:08:43,769 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:08:46,159 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:08:48,085 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:08:54,573 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:08:55,603 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:08:57,934 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:08:59,801 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:09:03,201 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:09:04,234 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:10:58,922 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:11:00,767 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:11:14,599 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:11:16,384 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:11:36,424 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:11:37,389 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:13:28,642 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:15:52,194 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:18:57,111 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:20:20,074 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:20:22,235 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:20:26,850 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:20:28,131 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:20:31,413 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:20:32,794 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:21:19,737 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:23:41,823 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:41:02,407 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:41:04,346 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:41:33,550 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:41:34,430 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:42:29,124 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:42:30,355 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:42:34,715 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:42:36,602 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:42:47,685 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:42:48,741 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:42:56,177 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:42:57,765 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:43:36,499 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:43:38,667 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:44:14,820 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:44:16,765 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-28 14:44:18,583 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-28 14:44:20,124 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:21:45,824 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-30 20:21:47,061 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:22:20,006 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-30 20:22:21,063 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:22:41,844 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-30 20:22:42,895 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:23:37,266 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-30 20:23:38,197 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:26:06,481 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-30 20:26:07,461 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:26:16,920 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-30 20:26:17,750 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:26:41,593 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-30 20:26:42,593 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:32:13,486 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-30 20:32:14,521 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:32:38,289 [INFO] django.utils.autoreload: /app/code_runner/execution_utils.py changed, reloading.
+2024-03-30 20:32:39,115 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:37:27,802 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-30 20:37:29,594 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:41:46,627 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-30 20:41:48,011 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 20:48:05,868 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-30 20:48:07,256 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:00:23,855 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-30 21:00:25,255 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:05:07,528 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:06:35,519 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-30 21:06:37,462 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:07:08,152 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:10:09,187 [INFO] django.utils.autoreload: /app/code_runner/views.py changed, reloading.
+2024-03-30 21:10:11,012 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:11:19,556 [ERROR] django.request: Internal Server Error: /run_code/execute/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/usr/local/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/app/code_runner/views.py", line 30, in post
+    result = execute_code(code, inputs, language, test_code)  # Muokattu kutsua vastaamaan funktiota, joka ottaa kielen huomioon
+NameError: name 'execute_code' is not defined
+2024-03-30 21:13:27,801 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-30 21:13:29,486 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:13:58,402 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-30 21:13:59,447 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:17:26,347 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-30 21:17:27,817 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:17:29,332 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-03-30 21:17:31,037 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:37:52,275 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:38:48,118 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:39:42,588 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:58:48,067 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 21:58:49,622 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:59:30,962 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 21:59:31,898 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 21:59:39,129 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 21:59:40,490 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 22:00:03,754 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 22:00:04,918 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 22:01:18,963 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 22:01:20,057 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 22:01:23,631 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 22:01:24,814 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 22:01:38,142 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 22:01:39,308 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 22:10:28,973 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 22:10:30,068 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 22:10:35,745 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 22:10:36,850 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 23:44:57,409 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 23:44:59,734 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 23:45:06,254 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 23:45:07,389 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 23:45:23,687 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 23:45:24,784 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 23:46:11,198 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 23:46:12,048 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 23:46:15,254 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 23:46:16,666 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 23:46:18,322 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 23:46:19,321 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 23:47:11,836 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 23:47:12,591 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-30 23:47:20,925 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-30 23:47:21,805 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 01:37:27,060 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 01:37:28,852 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 01:40:03,596 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 01:40:05,045 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 01:40:16,223 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 01:40:17,718 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:14:52,990 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:14:54,058 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:16:36,620 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:16:38,077 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:16:45,667 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:16:47,384 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:16:49,956 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:16:50,729 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:17:01,980 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:17:02,857 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:20:13,329 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:20:14,242 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:22:36,849 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:22:38,173 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:22:39,525 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:22:40,254 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:23:33,851 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:23:34,980 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:23:41,601 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:23:42,841 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:27:26,910 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:27:28,401 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:27:31,147 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:27:32,466 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:27:58,860 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:27:59,973 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:28:05,505 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:28:07,188 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:28:14,855 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:28:15,945 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:28:31,706 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:28:32,508 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:28:56,500 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:28:57,374 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:29:02,319 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:29:03,424 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:29:12,167 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:29:13,689 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:29:18,425 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:29:19,642 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:30:04,128 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:30:05,218 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:30:07,785 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:30:09,348 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:30:10,829 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:30:12,040 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:30:13,580 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:30:14,733 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:30:19,328 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:30:20,464 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:30:30,174 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:30:31,258 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:30:54,367 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:30:55,517 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:31:36,892 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:31:38,816 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:31:40,555 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:31:41,652 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:31:47,245 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:31:48,301 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:31:50,776 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:31:51,846 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:31:54,687 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:31:56,106 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:31:57,699 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:31:58,769 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:32:31,889 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:32:32,818 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:32:39,325 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:32:40,331 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:33:02,290 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:33:03,231 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:33:27,179 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:33:28,140 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:33:33,732 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:33:35,552 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 02:33:38,025 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 02:33:39,066 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:08:32,137 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:08:34,430 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:08:38,003 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:08:38,852 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:08:55,151 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:08:56,220 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:02,763 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:03,622 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:05,819 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:06,983 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:16,634 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:17,816 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:19,348 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:21,212 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:25,810 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:26,716 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:30,273 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:31,708 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:36,937 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:38,010 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:43,766 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:45,107 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:47,737 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:49,264 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:09:55,251 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:09:56,260 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:00,804 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:01,811 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:04,318 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:05,283 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:09,134 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:10,186 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:12,729 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:13,694 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:40,739 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:41,789 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:46,297 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:47,224 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:49,736 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:50,462 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:52,712 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:53,700 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:55,895 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:56,840 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:10:58,492 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:10:59,441 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:11:01,924 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:11:03,753 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:11:07,216 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:11:08,438 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:14:29,062 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:14:30,206 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:17:01,577 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:27:52,636 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:27:54,144 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:27:55,404 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:27:56,311 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:32:33,732 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:32:34,537 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:33:33,174 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:33:34,436 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:33:38,726 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:33:39,440 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:33:41,667 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:33:42,310 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:33:47,520 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:33:48,218 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:33:58,512 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:33:59,640 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:36:32,265 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:36:33,080 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:36:52,394 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:36:53,428 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 04:37:16,271 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 04:37:17,124 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 05:11:00,163 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 05:11:01,481 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 05:14:13,161 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 05:14:15,014 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 05:14:19,351 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 05:14:22,219 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:16:58,301 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:17:00,254 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:17:02,237 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:17:03,468 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:17:06,404 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:17:07,610 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:17:09,798 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:17:10,928 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:17:13,807 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:17:14,854 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:35:50,660 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:35:51,493 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:35:54,041 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:35:54,872 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:36:03,790 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:36:05,008 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:43:09,264 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:43:10,935 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:43:29,294 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:43:30,361 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:50:08,665 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:50:10,833 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:52:16,936 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:52:17,881 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:52:21,390 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:52:22,334 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:54:13,155 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:54:14,142 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:54:15,915 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:54:16,709 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:55:40,908 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:55:41,651 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:55:43,883 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:55:44,775 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:55:58,507 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:55:59,431 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:56:39,742 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:56:41,211 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:56:43,802 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:56:44,948 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:57:01,718 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:57:03,095 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-03-31 19:57:05,927 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-03-31 19:57:06,978 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 02:34:44,580 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-02 02:34:46,280 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 02:45:03,916 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 02:45:05,455 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 02:45:08,034 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 02:45:09,215 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 02:45:11,744 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 02:45:12,830 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 02:45:33,708 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 02:45:35,166 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 02:45:36,392 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 02:45:38,265 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 02:47:17,196 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 02:47:18,351 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 02:47:40,287 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 02:47:41,986 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 03:50:29,853 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 03:50:31,320 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 03:50:34,254 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 03:50:35,439 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 03:50:37,004 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 03:50:37,764 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 03:50:52,058 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 03:50:53,055 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:02:46,273 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:02:48,598 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:02:58,746 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:03:00,358 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:03:07,080 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:03:07,962 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:05:07,800 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:05:09,844 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:05:48,083 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:05:49,333 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:05:54,886 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:05:56,009 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:06:41,344 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:06:42,424 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:07:26,799 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:07:28,058 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:07:30,559 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:07:31,612 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:07:50,396 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:07:51,468 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:08:04,138 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:08:05,636 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:08:08,143 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:08:09,055 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:08:25,844 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:08:26,766 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 04:08:28,420 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 04:08:29,758 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 05:15:13,608 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 05:15:15,479 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:34:03,316 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:34:04,511 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:34:38,619 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:34:39,765 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:34:55,521 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:34:57,133 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:34:58,606 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:34:59,764 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:35:57,619 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:35:58,796 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:36:08,504 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:36:09,712 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:36:13,218 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:36:14,381 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:36:45,578 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:36:46,997 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:36:48,382 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:36:49,552 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:36:51,565 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:36:53,451 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:38:01,803 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:38:03,817 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:38:05,290 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:38:07,428 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:38:19,232 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:38:21,623 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:38:23,280 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:38:24,427 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:40:01,889 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:40:03,643 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:40:04,919 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:40:06,737 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:40:09,510 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:40:10,638 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:40:14,157 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:40:15,030 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:40:25,331 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:40:26,446 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:40:42,221 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:40:43,363 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:40:52,985 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:40:54,664 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:41:06,492 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:41:08,868 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:41:17,307 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:41:18,268 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:41:19,449 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:41:20,481 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:41:40,426 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:41:41,953 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:41:43,920 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:41:45,044 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:41:48,747 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:41:50,307 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:42:04,357 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:42:06,465 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:42:08,522 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:42:10,582 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:42:12,790 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:42:14,420 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:42:16,960 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:42:18,157 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:42:27,842 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:42:29,745 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:42:34,522 [INFO] django.utils.autoreload: /app/main_app/models.py changed, reloading.
+2024-04-02 16:42:36,326 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 16:46:36,394 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 21:09:31,928 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 21:10:18,354 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 21:11:11,120 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-04-02 21:11:12,216 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-02 22:19:25,362 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-04-02 22:19:26,208 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 01:00:03,151 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-04-03 01:00:04,142 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 01:13:38,686 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 01:13:40,514 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 01:21:25,496 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 01:21:26,657 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 01:35:21,042 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-04-03 01:35:22,030 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:21:04,339 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 22:21:05,402 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:22:17,016 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 22:22:18,071 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:22:37,988 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 22:22:39,435 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:25:15,177 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 22:25:16,140 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:27:32,500 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 22:27:33,569 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:27:41,142 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 22:27:42,300 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:28:20,644 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 22:28:22,427 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:28:39,309 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-03 22:28:40,186 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:32:22,368 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:32:23,492 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:32:27,009 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:32:28,114 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:32:31,408 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:32:32,375 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:32:34,670 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:32:35,627 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:32:44,036 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:32:45,419 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:32:48,803 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:32:49,676 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:32:52,012 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:32:52,767 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:33:03,227 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:33:04,199 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:33:09,595 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:33:10,576 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:33:15,952 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:33:17,169 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:33:21,503 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:33:22,272 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:42:14,205 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-04-03 22:42:15,115 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-03 22:43:54,762 [INFO] django.utils.autoreload: /app/main_app/urls.py changed, reloading.
+2024-04-03 22:43:55,842 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-04 00:57:42,955 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-04-04 00:57:45,118 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-14 02:44:12,594 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-14 02:45:18,013 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-04-14 02:46:27,854 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-04-14 02:46:28,929 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-15 13:40:33,592 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-05-15 13:40:35,577 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-15 13:41:53,103 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-05-15 13:41:54,923 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-19 01:10:05,636 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-05-19 01:10:06,521 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-19 01:13:19,673 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-05-19 01:13:20,651 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-19 16:12:19,724 [INFO] django.utils.autoreload: /app/main_app/views.py changed, reloading.
+2024-05-19 16:12:20,894 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-19 16:14:33,177 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-05-19 16:14:34,135 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-05-20 04:45:15,943 [INFO] django.utils.autoreload: /app/koodiguru_pilot/settings.py changed, reloading.
+2024-05-20 04:45:16,883 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
