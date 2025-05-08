@@ -12,13 +12,20 @@
     <h1 class="text-center">Kurssit</h1>
     <div class="row gap-4">
         {% for course in courses %}
+            {# Näytetään vain rekisteröityneelle käyttäjälle, jos kurssi ei ole ilmainen #}
+            {% if course.is_premium and not request.user.is_authenticated %}
+                {# älä näytä premium-kurssia kirjautumattomalle #}
+                {% continue %}
+            {% endif %}
+
         <div class="col-md-6 mb-3">
             <div class="card">
                 <div class="card-body">
                     <div class="text-center">
                         <img src="{{ course.courseLogo.url }}" 
                              alt="{{ course.courseTitle }} logo" 
-                             class="course-logo img-fluid">
+                             class="course-logo img-fluid"
+                             style="max-width: 200px; max-height: 200px; margin-bottom: 15px;">
                     </div>
                     
                     <h3 class="card-title text-center">{{ course.courseTitle }}</h3>
@@ -29,7 +36,9 @@
                         <p><strong>Tehtävien määrä: </strong>{{ course.num_tasks }}</p>
                         <p><strong>Esitiedot: </strong>{{ course.prerequisites }}</p>
                         {% if course.is_premium %}
-                            <p class="premium-badge"><i class="bi bi-star-fill me-2"></i>Premium Kurssi</p>
+                            <p class="premium-badge text-danger">
+                                <i class="bi bi-star-fill me-2"></i>Premium Kurssi
+                            </p>
                         {% endif %}
                     </div>
 
