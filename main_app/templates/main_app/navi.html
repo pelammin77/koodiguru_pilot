@@ -10,7 +10,10 @@
 
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item {% if request.path == '/' %}active{% endif %}">
+     
+     
+     
+      <li class="nav-item {% if request.resolver_match.url_name == 'index' %}active{% endif %}">
         <a class="nav-link" href="{% url 'main_app:index' %}">Koti</a>
       </li>
 <!--
@@ -27,7 +30,8 @@
       <li class="nav-item {% if request.path == '/courses/' %}active{% endif %}">
         <a class="nav-link" href="{% url 'main_app:course_list' %}">Kurssit</a>
       </li>
-      <li class="nav-item {% if request.path == '/contacts/' %}active{% endif %}  0">
+
+      <li class="nav-item {% if request.resolver_match.url_name == 'contact' %}active{% endif %}">
         <a class="nav-link" href="{% url 'main_app:contact' %}">Yhteystiedot</a>
       </li>
     </ul>
