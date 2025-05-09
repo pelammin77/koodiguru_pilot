@@ -1,7 +1,10 @@
 body {
     font-family: "Source Sans Pro", sans-serif;
-    background-color: #f7f7f7;
+    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+    background-repeat: no-repeat;
   }
+
+ 
   
   h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto", sans-serif;
