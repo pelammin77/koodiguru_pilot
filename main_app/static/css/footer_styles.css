@@ -1,10 +1,11 @@
 /* Footer Styles */
 .footer {
-    background: #212529;
-    padding: 3rem 0;
-    margin-top: 4rem;
-}
-
+    background-color: #2e518b;
+    color: #ffffff;
+    padding: 30px 0;
+    margin-top: 5px;
+  }
+  
 /* Typography */
 .footer h5 {
     color: white;
