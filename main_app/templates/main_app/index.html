@@ -8,12 +8,15 @@
 {% block content %}
 
 {% if not request.user.is_authenticated %}
-<section style="background-color: #d5dadf;" class="py-5">
-    <div class="container text-center">
-        <h3 class="mb-4">Aloita nyt ilmaiseksi</h3>
-        <a href="{% url 'main_app:register' %}" class="btn btn-success btn-lg px-5">Luo tili</a>
+<section class="hero-section text-white text-center py-5" style="background: linear-gradient(90deg, #007bff, #6610f2);">
+    <div class="container">
+        <h1 class="display-3 font-weight-bold">Koodaa kuin guru</h1>
+        <p class="lead mt-3">Harjoittele, testaa ja kehity – kaikki yhdessä paikassa.</p>
+        <a href="{% url 'main_app:register' %}" class="btn btn-light btn-lg mt-4 px-5">Luo tili</a>
     </div>
-</section>{% endif %}
+</section>
+
+{% endif %}
 
 
 <section class="bg-white py-5">
