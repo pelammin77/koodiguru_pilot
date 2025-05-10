@@ -7,16 +7,20 @@
 
 {% block content %}
 
-{% if not request.user.is_authenticated %}
-<section class="hero-section text-white text-center py-5" style="background: linear-gradient(90deg, #007bff, #6610f2);">
+
+<section class="hero-section text-white text-center py-5" style="background: linear-gradient(90deg, #e2ecb1, #5190ee);">
     <div class="container">
         <h1 class="display-3 font-weight-bold">Koodaa kuin guru</h1>
         <p class="lead mt-3">Harjoittele, testaa ja kehity – kaikki yhdessä paikassa.</p>
-        <a href="{% url 'main_app:register' %}" class="btn btn-light btn-lg mt-4 px-5">Luo tili</a>
+        
+    {% if not request.user.is_authenticated %}
+        <a href="{% url 'main_app:register' %}" class="btn btn-light btn-lg mt-4 px-5">Luo ilmainen tili </a>
+    {% endif %}
+
     </div>
 </section>
 
-{% endif %}
+
 
 
 <section class="bg-white py-5">
