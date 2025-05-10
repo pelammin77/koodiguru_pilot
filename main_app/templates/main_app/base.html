@@ -36,12 +36,17 @@
         }
 
         body {
-    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
-    background-repeat: no-repeat;
-}
+            background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+            background-repeat: no-repeat;
+        }
 
-  
-
+        .main-container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 100%;
+        }
 
       </style>
       
@@ -49,29 +54,27 @@
 
 
 </head>
-<body  class="d-flex flex-column" style="min-height: 100vh;">
-
+<body class="d-flex flex-column" style="min-height: 100vh;">
     {% include 'main_app/navi.html' %}
     {% include 'main_app/messages.html' %}
- 
-    <div class="container flex-grow-1">
+
+    <div class="main-container flex-grow-1">
         {% block content %}{% endblock %}
     </div>
 
     {% include 'main_app/footer.html' %}
 
-
     <script type="text/javascript">
         window.onpageshow = function(event) {
             if (event.persisted) {
-                window.location.reload() 
+                window.location.reload();
             }
         };
-        </script>
+    </script>
 
     {% if debug %}
     <script defer src="{% url 'django_browser_reload:javascript' %}"></script>
     {% endif %}
-
 </body>
+
 </html>
