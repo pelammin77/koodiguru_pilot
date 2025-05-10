@@ -7,24 +7,34 @@
 
 {% block content %}
 
-<section class="hero-section text-white text-center py-5" style="
+<section class="hero-section text-white py-5" style="
     background: linear-gradient(90deg, #0f207c, #5190ee);
     border-radius: 0 0 20px 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 ">
     <div class="container">
-        <h1 class="display-3 font-weight-bold" style="letter-spacing: 1px; text-shadow: 1px 1px 2px rgba(0,0,0,0.4);">
-            Koodaa kuin guru
-        </h1>
-        <p class="lead mt-3" style="font-size: 1.25rem;">
-            Harjoittele, testaa ja kehity – kaikki yhdessä paikassa.
-        </p>
+        <div class="row align-items-center">
+            <!-- Tekstit vasemmalla -->
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="display-3 font-weight-bold" style="letter-spacing: 1px; text-shadow: 1px 1px 2px rgba(0,0,0,0.4);">
+                    Koodaa kuin guru
+                </h1>
+                <p class="lead mt-3" style="font-size: 1.25rem;">
+                    Harjoittele, testaa ja kehity – kaikki yhdessä paikassa.
+                </p>
 
-        {% if not request.user.is_authenticated %}
-        <a href="{% url 'main_app:register' %}" class="btn btn-light btn-lg mt-4 px-5 shadow hero-btn">
-            Luo ilmainen tili
-        </a>
-        {% endif %}
+                {% if not request.user.is_authenticated %}
+                <a href="{% url 'main_app:register' %}" class="btn btn-light btn-lg mt-4 px-5 shadow hero-btn">
+                    Luo ilmainen tili
+                </a>
+                {% endif %}
+            </div>
+
+            <!-- Kuva oikealla -->
+            <div class="col-md-6 text-center mt-4 mt-md-0">
+                <img src="{% static 'img/koodari_kuva.png' %}" alt="Koodari työssään" class="img-fluid" style="max-width: 400px;">
+            </div>
+        </div>
     </div>
 </section>
 
