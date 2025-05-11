@@ -54,11 +54,37 @@
       {% endif %}
     </ul>
 
-    <form class="form-inline my-2 my-lg-0" action="{% url 'main_app:search' %}" method="get">
-      <input class="form-control mr-sm-2" type="search" placeholder="Hae" name="q" aria-label="Hae"/>
-      <button class="btn btn-light my-2 my-sm-0" type="submit">Hae</button>
-    </form>    
-
+    <form class="form-inline d-flex align-items-center ms-3" action="{% url 'main_app:search' %}" method="get" style="gap: 0.5rem;">
+      <input 
+        class="form-control"
+        type="search"
+        placeholder="Hae"
+        name="q"
+        aria-label="Hae"
+        style="
+          height: 38px;
+          border-radius: 0.5rem;
+          padding: 0 0.75rem;
+          font-size: 0.95rem;
+          background-color: #ffffff;
+          color: #212529;
+          border: 1px solid #ced4da;
+        "
+      />
+      <button
+        class="btn btn-dark"
+        type="submit"
+        style="
+          height: 38px;
+          padding: 0 1rem;
+          font-weight: 600;
+          border-radius: 0.5rem;
+        "
+      >
+        Hae
+      </button>
+    </form>
+    
     <ul class="navbar-nav">
       {% if user.is_authenticated and user.role == 'student' and not user.is_premium %}
      
