@@ -1,12 +1,14 @@
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/footer_styles.css' %}">
 
-<footer class="footer" style="background-color: #2e518b;">
+{% load static %}
+
+<footer class="footer text-white pt-5 pb-4" style="background-color: #2e518b;">
     <div class="container">
         <div class="row">
             <!-- About section -->
             <div class="col-md-4 mb-4 mb-md-0">
-                <h5>Tietoa meistä</h5>
+                <h5 class="fw-bold">Tietoa meistä</h5>
                 <p>
                     KoodiGuru on suomalainen ohjelmointikurssien ja algoritmihaasteiden palvelu, 
                     joka auttaa sinua kehittämään taitojasi ja valmistautumaan työhaastatteluihin.
@@ -15,36 +17,35 @@
 
             <!-- Links section -->
             <div class="col-md-4 mb-4 mb-md-0">
-                <h5>Linkkejä</h5>
+                <h5 class="fw-bold">Linkkejä</h5>
                 <ul class="list-unstyled">
-                    <li>
-                        <a href="{% url 'main_app:course_list' %}">Kurssit</a>
+                    <li class="mb-2">
+                        📋 <a href="{% url 'main_app:course_list' %}" class="text-white text-decoration-none">Kurssit</a>
                     </li>
                     <li>
-                        <a href="{% url 'main_app:contact' %}">Yhteystiedot</a>
+                        📍 <a href="{% url 'main_app:contact' %}" class="text-white text-decoration-none">Yhteystiedot</a>
                     </li>
                 </ul>
             </div>
 
             <!-- Contact section -->
             <div class="col-md-4">
-                <h5>Ota yhteyttä</h5>
-                <div class="contact-info">
-                    <p>Email: koodiguruoficial@gmail.com</p>
-                </div>
+                <h5 class="fw-bold">Ota yhteyttä</h5>
+                <p>✉️ <a href="mailto:koodiguruoficial@gmail.com" class="text-white text-decoration-none">koodiguruoficial@gmail.com</a></p>
             </div>
         </div>
 
-        <div class="row">
-            <!-- Lisätään logo tähän keskelle alatunnistetta -->
-            <div class="col-md-12 text-center">
-                <img src="{% static 'img/vaaleampi_logo_no_back.png' %}" alt="KoodiGuru Logo" class="footer-logo" height="300" />
+        <!-- Logo keskelle -->
+        <div class="row my-4">
+            <div class="col text-center">
+                <img src="{% static 'img/vaaleampi_logo_no_back.png' %}" alt="KoodiGuru Logo" height="140" />
             </div>
         </div>
 
-        <!-- Copyright -->
-        <div class="copyright">
-            <p>&copy; 2025 KoodiGuru. Kaikki oikeudet pidätetään.</p>
+        <!-- Alaviiva ja copyright -->
+        <hr class="border-top border-light opacity-50" />
+        <div class="text-center small">
+            <p class="mb-0">&copy; 2025 KoodiGuru. Kaikki oikeudet pidätetään.</p>
         </div>
     </div>
 </footer>
