@@ -29,7 +29,8 @@
                 {% endif %}
             </div>
             <div class="col-md-6 text-center mt-4 mt-md-0">
-                <img src="{% static 'img/hero_kuva.png' %}" alt="Koodari työssään" class="img-fluid" style="max-width: 400px;">
+                <img src="{% static 'img/hero_kuva.png' %}" alt="Koodari" class="img-fluid hero-kuva">
+
             </div>
         </div>
     </div>
@@ -45,6 +46,14 @@ body {
     font-weight: 600;
     color: #212529;
 }
+.hero-kuva {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+
+
 .hero-btn:hover {
     background-color: #e2e6ea !important;
     color: #000 !important;
