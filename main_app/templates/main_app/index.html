@@ -96,7 +96,7 @@
         </div>
 
         <!-- YouTube-video keskitetysti -->
-        <div class="row justify-content-center mt-5">
+        <div class="row justify-content-center mt-4">
             <div class="col-md-8 col-lg-6">
                 <div class="bg-white border rounded shadow-sm p-3">
                     <h5 class="mb-3 text-center text-secondary" style="font-weight: 600;">📺 Katso esittelyvideo</h5>
@@ -172,40 +172,18 @@
         </div>
     </div>
 </section>
+
 <!-- YouTube-kanava -->
-<section class="bg-white py-5 border-top">
-    <div class="container-xl" style="max-width: 1280px;">
-        <div class="text-center">
-            <h3 class="mb-4">📺 Seuraa myös YouTubessa</h3>
-            <p class="lead">
-                KoodiGurun perustaja Petri Lamminaho jakaa ohjelmointi- ja tekoälyaiheisia videoita omalla kanavallaan.
-            </p>
-            <a href="https://www.youtube.com/@pelammin" target="_blank"
-               class="btn youtube-btn btn-lg d-inline-flex align-items-center gap-2 px-4 py-2"
-               style="font-weight: 600; font-size: 1.15rem;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24">
-                    <path d="M23.498 6.186a2.937 2.937 0 00-2.06-2.081C19.354 3.5 12 3.5 12 3.5s-7.354 0-9.438.605a2.937 2.937 0 00-2.06 2.081A30.07 30.07 0 000 12a30.07 30.07 0 00.502 5.814 2.937 2.937 0 002.06 2.081C4.646 20.5 12 20.5 12 20.5s7.354 0 9.438-.605a2.937 2.937 0 002.06-2.081A30.07 30.07 0 0024 12a30.07 30.07 0 00-.502-5.814zM9.75 15.5v-7l6 3.5-6 3.5z"/>
-                </svg>
-                Siirry kanavalle
-            </a>
-        </div>
+<section class="bg-white py-4 border-top">
+    <div class="container text-center">
+        <div class="container-xl" style="max-width: 1280px;">
+        <p class="lead">
+            KoodiGurun perustaja Petri Lamminaho jakaa ohjelmointi- ja tekoälyaiheisia videoita omalla kanavallaan.
+        </p>
+        <a href="https://www.youtube.com/@pelammin" target="_blank" class="btn btn-danger btn-lg">
+            Siirry kanavalle
+        </a>
     </div>
 </section>
-
-<!-- Hover-tyyli -->
-<style>
-.youtube-btn {
-    background-color: #dc3545;
-    color: white;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.youtube-btn:hover {
-    background-color: #b02a37;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    color: white;
-    text-decoration: none;
-}
-</style>
 
 {% endblock %}
