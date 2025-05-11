@@ -7,6 +7,7 @@
 
 {% block content %}
 
+<!-- HERO-OSIO -->
 <section class="hero-section text-white py-5" style="
     background: linear-gradient(90deg, #0f207c, #5190ee);
     border-radius: 0 0 20px 20px;
@@ -14,7 +15,6 @@
 ">
     <div class="container">
         <div class="row align-items-center">
-            <!-- Tekstit vasemmalla -->
             <div class="col-md-6 text-center text-md-left">
                 <h1 class="display-3 font-weight-bold" style="letter-spacing: 1px; text-shadow: 1px 1px 2px rgba(0,0,0,0.4);">
                     Koodaa kuin guru
@@ -22,15 +22,12 @@
                 <p class="lead mt-3" style="font-size: 1.25rem;">
                     Harjoittele, testaa ja kehity – kaikki yhdessä paikassa.
                 </p>
-
                 {% if not request.user.is_authenticated %}
                 <a href="{% url 'main_app:register' %}" class="btn btn-light btn-lg mt-4 px-5 shadow hero-btn">
                     Luo ilmainen tili
                 </a>
                 {% endif %}
             </div>
-
-            <!-- Kuva oikealla -->
             <div class="col-md-6 text-center mt-4 mt-md-0">
                 <img src="{% static 'img/hero_kuva.png' %}" alt="Koodari työssään" class="img-fluid" style="max-width: 400px;">
             </div>
@@ -44,7 +41,6 @@
     font-weight: 600;
     color: #212529;
 }
-
 .hero-btn:hover {
     background-color: #e2e6ea !important;
     color: #000 !important;
@@ -53,8 +49,10 @@
 }
 </style>
 
+<!-- UUSI OSA: Mikä on KoodiGuru + video -->
 <section class="bg-white py-5">
     <div class="container">
+        <!-- Otsikko ja esittelyteksti -->
         <div class="row text-center mb-4">
             <div class="col">
                 <h2 class="mb-3">Mikä on KoodiGuru?</h2>
@@ -63,55 +61,49 @@
                 </p>
             </div>
         </div>
-        <div class="row">
-            
 
-        <div class="row mt-4">
-            <div class="col">
-                <ul class="list-group list-group-flush">
+        <!-- Lista ja kuva rinnakkain -->
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <ul class="list-group list-group-flush fs-5">
                     <li class="list-group-item">🧠 Opiskele Pythonia, JavaScriptiä ja muita kieliä</li>
                     <li class="list-group-item">🧩 Ratkaise haastavia algoritmitehtäviä suoraan selaimessa</li>
                     <li class="list-group-item">💼 Valmistaudu työhaastatteluihin ja testaa taitosi</li>
                     <li class="list-group-item">🚀 Kehity ohjelmointiguruksi omassa tahdissa</li>
                 </ul>
             </div>
-        </div>
-
-        <div class="alert alert-warning mt-5 text-center">
-            <strong>HUOM!</strong> KoodiGuru on vielä beta-vaiheessa – palaute on tervetullutta!
-        </div>
-    </div>
-</section>
-
-            <!-- Koodari-kuva oikealla -->
             <div class="col-md-6 text-center">
                 <img src="{% static 'img/koodari_kuva.png' %}" alt="Koodari työssään" class="img-fluid" style="max-width: 400px;">
             </div>
         </div>
 
+        <!-- HUOM-ilmoitus -->
+        <div class="alert alert-warning mt-5 text-center">
+            <strong>HUOM!</strong> KoodiGuru on vielä beta-vaiheessa – palaute on tervetullutta!
+        </div>
 
-<!-- YouTube-video vasemmalla -->
-<div class="col-md-6 mb-4 mb-md-0">
-    <div class="card shadow border rounded">
-        <div class="card-body p-2">
-            <iframe 
-                src="https://www.youtube.com/embed/K6a_iPDDLKA?si=YH22LFxjdbwZ-o8U" 
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowfullscreen
-                width="100%" 
-                height="315"
-                class="rounded"
-                style="border: none;"
-            ></iframe>
+        <!-- YouTube-video keskitetysti -->
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-10 col-lg-8">
+                <div class="card shadow border-0">
+                    <div class="card-body p-2">
+                        <div class="ratio ratio-16x9">
+                            <iframe 
+                                src="https://www.youtube.com/embed/K6a_iPDDLKA?si=YH22LFxjdbwZ-o8U" 
+                                title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen
+                                style="border: none;"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</section>
 
-
-
-
-
+<!-- Harjoittele, testaa, kehity -kortit -->
 <section class="bg-white py-5">
     <div class="container">
         <div class="row text-center">
@@ -137,6 +129,7 @@
     </div>
 </section>
 
+<!-- Kehittäjästä-osio -->
 <section class="py-5" style="background-color: #f9f9fb;">
     <div class="container">
         <h3 class="text-center mb-5" style="font-weight: 700; font-size: 2rem; color: #2c3e50;">Kehittäjästä</h3>
@@ -163,6 +156,7 @@
     </div>
 </section>
 
+<!-- YouTube-kanava -->
 <section class="bg-white py-5 border-top">
     <div class="container text-center">
         <h3 class="mb-4">📺 Seuraa myös YouTubessa</h3>
