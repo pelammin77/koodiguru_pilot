@@ -38,7 +38,7 @@
 <style>
 
 body {
-    background: linear-gradient(to bottom, #6586c9, #ffffff);
+    background: linear-gradient(to bottom, #b3c7f0, #ffffff);
 }
 .hero-btn {
     transition: all 0.3s ease;
@@ -154,28 +154,34 @@ body {
 <section class="py-5" style="background-color: #f9f9fb;">
     <div class="container-xl" style="max-width: 1280px;">
         <h3 class="text-center mb-5" style="font-weight: 700; font-size: 2rem; color: #2c3e50;">Kehittäjästä</h3>
-        <div class="row align-items-center">
-            <div class="col-md-4 text-center mb-4 mb-md-0">
-                <img src="{% static 'img/petri_kuva.png' %}" alt="Petri Lamminaho" class="img-fluid rounded-circle shadow" style="max-width: 250px;">
-            </div>
-            <div class="col-md-8" style="font-size: 1.1rem; line-height: 1.8; color: #444;">
-                <p>
-                    Hei! Olen <strong style="color: #007bff;">Petri Lamminaho</strong>, väitöskirjatutkija Jyväskylän yliopistosta ja KoodiGurun perustaja.  
-                    Sivusto on syntynyt intohimosta ohjelmointiin, tekoälyyn ja oppimiseen. Kehitin KoodiGurun lähes yksin – alusta asti ideasta toimivaksi palveluksi.
-                </p>
-                <p>
-                    Tavoitteenani on tehdä KoodiGurusta Suomen paras alusta ohjelmoinnin oppimiseen ja osaamisen näyttämiseen.  
-                    Palvelua kehitetään jatkuvasti, ja mukana on nyt myös freelancereita ja asiantuntijoita.
-                </p>
-                <p class="mt-4">
-                    <a href="https://www.linkedin.com/in/petri-lamminaho-3b4026171" target="_blank" class="btn btn-primary px-4 py-2" style="font-weight: 600;">
-                        Tutustu LinkedInissä
-                    </a>
-                </p>
+        
+        <!-- Kehys ympäröi nyt koko rivin -->
+        <div class="p-4 border rounded shadow-sm bg-white">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img src="{% static 'img/petri_kuva.png' %}" alt="Petri Lamminaho" class="img-fluid rounded-circle shadow" style="max-width: 250px;">
+                </div>
+                <div class="col-md-8" style="font-size: 1.1rem; line-height: 1.8; color: #444;">
+                    <p>
+                        Hei! Olen <strong style="color: #007bff;">Petri Lamminaho</strong>, väitöskirjatutkija Jyväskylän yliopistosta ja KoodiGurun perustaja.  
+                        Sivusto on syntynyt intohimosta ohjelmointiin, tekoälyyn ja oppimiseen. Kehitin KoodiGurun lähes yksin – alusta asti ideasta toimivaksi palveluksi.
+                    </p>
+                    <p>
+                        Tavoitteenani on tehdä KoodiGurusta Suomen paras alusta ohjelmoinnin oppimiseen ja osaamisen näyttämiseen.  
+                        Palvelua kehitetään jatkuvasti, ja mukana on nyt myös freelancereita ja asiantuntijoita.
+                    </p>
+                    <p class="mt-4">
+                        <a href="https://www.linkedin.com/in/petri-lamminaho-3b4026171" target="_blank" class="btn btn-primary px-4 py-2" style="font-weight: 600;">
+                            Tutustu LinkedInissä
+                        </a>
+                    </p>
+                </div>
             </div>
         </div>
+
     </div>
 </section>
+
 
 <!-- YouTube-kanava -->
 <section class="bg-white py-4 border-top">
