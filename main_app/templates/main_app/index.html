@@ -6,7 +6,6 @@
 {% endblock %}
 
 {% block content %}
-
 <!-- HERO-OSIO -->
 <section class="hero-section text-white py-5" style="
     background: linear-gradient(90deg, #0f207c, #5190ee);
@@ -14,12 +13,13 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 ">
     <div class="container-xl" style="max-width: 1280px;">
-        <div class="row align-items-center">
-            <div class="col-md-6 text-center text-md-left">
-                <h1 class="display-3 font-weight-bold" style="letter-spacing: 1px; text-shadow: 1px 1px 2px rgba(0,0,0,0.4);">
+        <div class="row align-items-center gx-5 gy-4">
+            <!-- Vasemman puolen tekstit -->
+            <div class="col-md-6 text-center text-md-start">
+                <h1 class="display-3 fw-bold" style="letter-spacing: 1px; text-shadow: 1px 1px 2px rgba(0,0,0,0.4);">
                     Koodaa kuin guru
                 </h1>
-                <p class="lead mt-3" style="font-size: 1.25rem;">
+                <p class="lead mt-3 fs-4">
                     Harjoittele, testaa ja kehity – kaikki yhdessä paikassa.
                 </p>
                 {% if not request.user.is_authenticated %}
@@ -28,9 +28,10 @@
                 </a>
                 {% endif %}
             </div>
-            <div class="col-md-6 text-center mt-4 mt-md-0">
-                <img src="{% static 'img/hero_kuva.png' %}" alt="Koodari" class="img-fluid hero-kuva">
 
+            <!-- Oikean puolen kuva -->
+            <div class="col-md-6 text-center">
+                <img src="{% static 'img/hero_kuva.png' %}" alt="Koodari" class="img-fluid hero-kuva">
             </div>
         </div>
     </div>
