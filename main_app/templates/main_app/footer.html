@@ -38,7 +38,8 @@
         <!-- Logo keskelle -->
         <div class="row my-4">
             <div class="col text-center">
-                <img src="{% static 'img/vaaleampi_logo_no_back.png' %}" alt="KoodiGuru Logo" height="140" />
+            <img src="{% static 'img/vaaleampi_logo_no_back.png' %}" alt="KoodiGuru Logo" class="footer-logo" />
+
             </div>
         </div>
 
@@ -49,3 +50,27 @@
         </div>
     </div>
 </footer>
+
+
+<style>
+    .footer-logo {
+    height: 180px; /* kokeile esim. 140–180px */
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .footer-logo {
+        height: 100px;
+    }
+}
+
+
+
+
+
+</style>
+
