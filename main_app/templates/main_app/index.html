@@ -48,17 +48,18 @@
     text-decoration: none;
 }
 
-/* Uusi tyyli listalle */
+.custom-list-wrapper {
+    background-color: #6aafe7;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
 .custom-list .list-group-item {
-    background-color: #8ac5f5;
+    background-color: transparent;
     border: none;
-    margin-bottom: 10px;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     padding: 1rem 1.25rem;
     font-size: 1.1rem;
 }
-
 </style>
 
 <!-- UUSI OSA: Mikä on KoodiGuru + video -->
@@ -77,13 +78,16 @@
         <!-- Lista ja kuva rinnakkain -->
         <div class="row align-items-center">
             <div class="col-md-6 mb-4 mb-md-0">
-                <ul class="list-group list-group-flush fs-5">
-                    <li class="list-group-item">🧠 Opiskele Pythonia, JavaScriptiä ja muita kieliä</li>
-                    <li class="list-group-item">🧩 Ratkaise haastavia algoritmitehtäviä suoraan selaimessa</li>
-                    <li class="list-group-item">💼 Valmistaudu työhaastatteluihin ja testaa taitosi</li>
-                    <li class="list-group-item">🚀 Kehity ohjelmointiguruksi omassa tahdissa</li>
-                </ul>
+                <div class="custom-list-wrapper p-3 rounded">
+                    <ul class="list-group custom-list fs-5">
+                        <li class="list-group-item">🧠 Opiskele Pythonia, JavaScriptiä ja muita kieliä</li>
+                        <li class="list-group-item">🧩 Ratkaise haastavia algoritmitehtäviä suoraan selaimessa</li>
+                        <li class="list-group-item">💼 Valmistaudu työhaastatteluihin ja testaa taitosi</li>
+                        <li class="list-group-item">🚀 Kehity ohjelmointiguruksi omassa tahdissa</li>
+                    </ul>
+                </div>
             </div>
+        
             <div class="col-md-6 text-center">
                 <img src="{% static 'img/koodari_kuva.png' %}" alt="Koodari työssään" class="img-fluid" style="max-width: 400px;">
             </div>
