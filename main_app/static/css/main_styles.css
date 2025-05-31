@@ -27,20 +27,20 @@ body {
   /* Korttityyli */
 
   
-  .card {
-    position: relative; /* Lisätty */
-    
-    height: 100%;
-    background: linear-gradient(135deg, #a0c7ec, #ffffff);
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.3s;
-    padding:  20px;
-    margin: 50px;
-    z-index: 1;
-    min-height: 400px;
-
-}
+  
+    .card {
+      position: relative;
+      height: 100%;
+      background: #f3f7fb; /* Fallback-väri */
+      background: linear-gradient(135deg, #a0c7ec, #ffffff);
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+      transition: 0.3s;
+      padding: 20px;
+      margin: 50px;
+      z-index: 1;
+      min-height: 400px;
+    }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
@@ -48,9 +48,7 @@ body {
 
 
 
-  .card:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  }
+  
   
   .card h5 {
     font-weight: bold;
