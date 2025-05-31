@@ -1,19 +1,4 @@
-<style>
 
-.task-number-badge {
-    display: inline-block;
-    width: 28px;
-    height: 28px;
-    background-color: #f8b400;
-    color: white;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 28px;
-    font-weight: bold;
-    font-size: 0.9rem;
-}
-
-</style>
 
 {% extends 'main_app/base.html' %}
 {% load static %}
@@ -45,7 +30,7 @@
                     {% for task in category_tasks.list %}
                         <div class="task-item mb-3">
                             <div class="d-flex justify-content-between align-items-center task-header p-3 bg-light rounded" style="cursor: pointer;">
-                                <h5 class="mb-0">
+                                <h5>
                                     <span class="task-number-badge me-2">{{ forloop.counter }}</span>
                                     {{ task.taskTitle }}
                                 </h5>
@@ -133,4 +118,6 @@
         });
     });
 </script>
+
+
 {% endblock %}
