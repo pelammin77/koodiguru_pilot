@@ -45,9 +45,13 @@
 .custom-card .btn {
     font-weight: 600;
 }
+.course-list-bottom-space {
+    margin-bottom: 80px; /* Voit säätää tarpeen mukaan esim. 100px */
+}
+
 </style>
 
-<div class="container">
+<div class="container course-list-bottom-space">
     <h1 class="text-center my-4">Kurssit</h1>
     <div class="row gap-4">
         {% for course in courses %}
