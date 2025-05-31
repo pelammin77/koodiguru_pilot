@@ -72,7 +72,18 @@
                         <div class="course-info">
                             <p><strong>Tutoriaalien määrä: </strong>{{ course.num_tutorials }}</p>
                             <p><strong>Tehtävien määrä: </strong>{{ course.num_tasks }}</p>
-                            <p><strong>Esitiedot: </strong>{{ course.prerequisites }}</p>
+                            <p><strong>Esitiedot: </strong>
+                                {% if course.prerequisites == "Ei esitietoja" %}
+                                    <span style="background-color: #d4edda; color: #155724; padding: 4px 10px; border-radius: 12px; font-size: 0.95rem;">
+                                        {{ course.prerequisites }}
+                                    </span>
+                                {% else %}
+                                    <span style="background-color: #fff3cd; color: #856404; padding: 4px 10px; border-radius: 12px; font-size: 0.95rem;">
+                                        {{ course.prerequisites }}
+                                    </span>
+                                {% endif %}
+                            </p>
+                            
                             {% if course.is_premium %}
                                 <p class="premium-badge text-danger">
                                     <i class="bi bi-star-fill me-2"></i>Premium Kurssi
