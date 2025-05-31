@@ -29,7 +29,7 @@ body {
   
   .card {
     position: relative; /* Lisätty */
-    background-color: rgb(255, 250, 250);
+    
     height: 100%;
     background: linear-gradient(135deg, #a0c7ec, #ffffff);
     border: 1px solid #ccc;
