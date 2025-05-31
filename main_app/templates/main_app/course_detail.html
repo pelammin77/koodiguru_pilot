@@ -28,8 +28,11 @@
                     {% for task in category_tasks.list %}
                         <div class="task-item mb-3">
                             <div class="d-flex justify-content-between align-items-center task-header p-3 bg-light rounded" style="cursor: pointer;">
-                                <h5 class="mb-0">{{ task.taskTitle }}</h5>
-                                <div>
+                                <h5 class="mb-0">
+                                    <span class="task-number-badge me-2">{{ forloop.counter }}</span>
+                                    {{ task.taskTitle }}
+                                </h5>
+                            <div>
                                     {% with status=user_task_status|get_item:task.id %}
                                         {% if status == 'started' %}
                                             <span class="badge bg-primary">Aloitettu</span>
