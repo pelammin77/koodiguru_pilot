@@ -63,11 +63,6 @@ body {
     font-weight: bold;
 }
 
-
-.card {
-    height: 100%;
-    background: linear-gradient(135deg, #a0c7ec, #ffffff);
-  }
   
   .card-equal-height {
     display: flex;
