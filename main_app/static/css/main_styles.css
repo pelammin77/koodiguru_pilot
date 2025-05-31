@@ -31,8 +31,8 @@ body {
     .card {
       position: relative;
       height: 100%;
-      background: #f3f7fb; /* Fallback-väri */
-      background: linear-gradient(135deg, #a0c7ec, #ffffff);
+      background: #3c8bda; /* Fallback-väri */
+      
       border: 1px solid #ccc;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
       transition: 0.3s;
