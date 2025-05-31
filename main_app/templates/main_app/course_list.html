@@ -6,15 +6,54 @@
 {% endblock %}
 
 {% block content %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/course_list_style.css' %}">
+<style>
+.custom-card {
+    position: relative;
+    background: linear-gradient(135deg, #a0c7ec, #ffffff);
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 420px;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+}
+
+.custom-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e2a38;
+    margin-bottom: 10px;
+}
+
+.custom-card .card-text {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.custom-card .course-info p {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.custom-card .btn {
+    font-weight: 600;
+}
+</style>
 
 <div class="container">
-    <h1 class="text-center">Kurssit</h1>
+    <h1 class="text-center my-4">Kurssit</h1>
     <div class="row gap-4">
         {% for course in courses %}
             {% if not course.is_premium or request.user.is_authenticated %}
             <div class="col-md-6 mb-3">
-                <div class="card">
+                <div class="card custom-card">
                     <div class="card-body">
                         <div class="text-center">
                             <img src="{{ course.courseLogo.url }}" 
@@ -37,7 +76,7 @@
                             {% endif %}
                         </div>
 
-                        <div class="d-grid gap-2">
+                        <div class="d-grid gap-2 mt-3">
                             <a href="{% url 'main_app:course_detail' course.id %}" class="btn btn-dark">
                                 <i class="bi bi-arrow-right-circle me-2"></i>Siirry kurssiin
                             </a>
