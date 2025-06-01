@@ -10,96 +10,108 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/search_results_styles.css' %}">
 
 <div class="container">
-    <h1>Hakutulokset termille: "{{ query }}"</h1>
+    <h1>Hakutulokset termille: <span class="highlighted-term">"{{ query }}"</span></h1>
     <br>
 
     <!-- Courses Section -->
-    <h2>Kurssit</h2>
+    <h2><i class="bi bi-journal-code"></i> Kurssit ({{ courses|length }})</h2>
     <div class="row g-4">
-        {% for course in courses %}
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <a href="{% url 'main_app:course_detail' course.id %}">{{ course.courseTitle }}</a>
-                    </h5>
-                    <p class="card-text">{{ course.courseDescription }}</p>
-                    
-                    <div class="course-info">
-                        <p><strong>Tutoriaalien määrä: </strong>{{ course.num_tutorials }}</p>
-                        <p><strong>Tehtävien määrä: </strong>{{ course.num_tasks }}</p>
-                        <p><strong>Esitiedot: </strong>{{ course.prerequisites }}</p>
-                        {% if course.is_premium %}
-                            <p class="premium-badge">
-                                <i class="bi bi-star-fill"></i>
-                                <span>Premium Kurssi</span>
-                            </p>
+        {% if courses %}
+            {% for course in courses %}
+            <div class="col-md-6">
+                <div class="card course-card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{% url 'main_app:course_detail' course.id %}">{{ course.courseTitle }}</a>
+                        </h5>
+                        <p class="card-text">{{ course.courseDescription }}</p>
+                        
+                        <div class="course-info">
+                            <p><strong>Tutoriaalien määrä: </strong>{{ course.num_tutorials }}</p>
+                            <p><strong>Tehtävien määrä: </strong>{{ course.num_tasks }}</p>
+                            <p><strong>Esitiedot: </strong>{{ course.prerequisites }}</p>
+                            {% if course.is_premium %}
+                                <p class="premium-badge">
+                                    <i class="bi bi-star-fill"></i>
+                                    <span>Premium Kurssi</span>
+                                </p>
+                            {% endif %}
+                        </div>
+
+                        {% if request.user.is_authenticated and request.user.role == 'student' and course.id not in user_courses %}
+                            <a href="{% url 'main_app:add_course_to_user' course.id %}" class="btn btn-outline-primary">
+                                <i class="bi bi-bookmark-plus"></i>
+                                <span>Lisää kurssi suosikkeihin</span>
+                            </a>
                         {% endif %}
                     </div>
-
-                    {% if request.user.is_authenticated and request.user.role == 'student' and course.id not in user_courses %}
-                        <a href="{% url 'main_app:add_course_to_user' course.id %}" class="btn btn-outline-primary">
-                            <i class="bi bi-bookmark-plus"></i>
-                            <span>Lisää kurssi suosikkeihin</span>
-                        </a>
-                    {% endif %}
                 </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
+        {% else %}
+            <p class="text-muted">Ei kursseja löytynyt hakutermillä.</p>
+        {% endif %}
     </div>
 
     <!-- Tasks Section -->
-    <h2>Tehtävät</h2>
+    <h2><i class="bi bi-terminal"></i> Tehtävät ({{ tasks|length }})</h2>
     <div class="row g-4">
-        {% for task in tasks %}
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">{{ task.taskTitle }}</h5>
-                    <div class="course-info">
-                        <p><strong>Kurssi: </strong>
-                            <a href="{% url 'main_app:course_detail' task.course.id %}">{{ task.course.courseTitle }}</a>
-                        </p>
-                        <p><strong>Ohjelmointikieli: </strong>{{ task.language }}</p>
-                        <p><strong>Tehtävän kategoria: </strong>{{ task.category }}</p>
-                        <p><strong>Taso: </strong>{{ task.difficulty }}</p>
-                    </div>
+        {% if tasks %}
+            {% for task in tasks %}
+            <div class="col-md-6">
+                <div class="card task-card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ task.taskTitle }}</h5>
+                        <div class="course-info">
+                            <p><strong>Kurssi: </strong>
+                                <a href="{% url 'main_app:course_detail' task.course.id %}">{{ task.course.courseTitle }}</a>
+                            </p>
+                            <p><strong>Ohjelmointikieli: </strong>{{ task.language }}</p>
+                            <p><strong>Tehtävän kategoria: </strong>{{ task.category }}</p>
+                            <p><strong>Taso: </strong>{{ task.difficulty }}</p>
+                        </div>
 
-                    <div class="task-status">
-                        {% if user_task_status|get_item:task.id == 'solved' %}
-                            <a href="{% url 'main_app:review_task' task.id %}" class="btn btn-primary">
-                                <i class="bi bi-eye"></i>
-                                <span>Tarkastele vastausta</span>
-                            </a>
-                        {% else %}
-                            <a href="{% url 'main_app:perform_task' task.id %}" class="btn btn-primary">
-                                <i class="bi bi-play-fill"></i>
-                                <span>Suorita tehtävä</span>
-                            </a>
-                        {% endif %}
+                        <div class="task-status">
+                            {% if user_task_status|get_item:task.id == 'solved' %}
+                                <a href="{% url 'main_app:review_task' task.id %}" class="btn btn-primary">
+                                    <i class="bi bi-eye"></i>
+                                    <span>Tarkastele vastausta</span>
+                                </a>
+                            {% else %}
+                                <a href="{% url 'main_app:perform_task' task.id %}" class="btn btn-primary">
+                                    <i class="bi bi-play-fill"></i>
+                                    <span>Suorita tehtävä</span>
+                                </a>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
+        {% else %}
+            <p class="text-muted">Ei tehtäviä löytynyt hakutermillä.</p>
+        {% endif %}
     </div>
 
     <!-- Tutorials Section -->
-    <h2>Tutoriaalit</h2>
+    <h2><i class="bi bi-lightbulb"></i> Tutoriaalit ({{ tutorials|length }})</h2>
     <div class="row g-4">
-        {% for tutorial in tutorials %}
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <a href="{% url 'main_app:tutorial_detail' tutorial.id %}">{{ tutorial.title }}</a>
-                    </h5>
-                    <p class="card-text">{{ tutorial.description|safe }}</p>
+        {% if tutorials %}
+            {% for tutorial in tutorials %}
+            <div class="col-md-6">
+                <div class="card tutorial-card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{% url 'main_app:tutorial_detail' tutorial.id %}">{{ tutorial.title }}</a>
+                        </h5>
+                        <p class="card-text">{{ tutorial.description|safe }}</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        {% endfor %}
+            {% endfor %}
+        {% else %}
+            <p class="text-muted">Ei tutoriaaleja löytynyt hakutermillä.</p>
+        {% endif %}
     </div>
 </div>
 {% endblock %}

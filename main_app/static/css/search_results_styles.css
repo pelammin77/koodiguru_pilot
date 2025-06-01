@@ -14,6 +14,12 @@ h1 {
     text-align: center;
 }
 
+.highlighted-term {
+    background: linear-gradient(45deg, #d0d8f6, #eef0fb);
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+}
+
 /* Section Headers */
 h2 {
     font-size: 1.75rem;
@@ -22,6 +28,9 @@ h2 {
     margin: 3rem 0 1.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #e9ecef;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 /* Search Results Cards */
@@ -30,18 +39,33 @@ h2 {
     border-radius: 12px;
     background: #fff;
     box-shadow: 0 2px 15px rgba(0,0,0,0.08);
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     height: 100%;
     padding: 0;
     margin-bottom: 1rem;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 .card:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px) scale(1.01);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 
 .card-body {
     padding: 1.5rem;
+}
+
+/* Card Type Left Borders */
+.course-card {
+    border-left: 5px solid #007bff;
+}
+
+.task-card {
+    border-left: 5px solid #28a745;
+}
+
+.tutorial-card {
+    border-left: 5px solid #fd7e14;
 }
 
 /* Typography */
@@ -74,11 +98,15 @@ h2 {
 }
 
 .premium-badge {
+    background-color: #fff0f0;
     color: #dc3545;
-    font-weight: 500;
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+    font-weight: 500;
 }
 
 /* Task Status */
@@ -97,11 +125,17 @@ h2 {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .btn-primary {
     background: #374998;
     border-color: #374998;
+    color: white;
 }
 
 .btn-primary:hover {
@@ -121,6 +155,18 @@ h2 {
     border-color: #374998;
     color: white;
     transform: translateY(-1px);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Responsive Design */
